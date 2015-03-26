@@ -1,0 +1,112 @@
+* {
+  color: black;
+  background: transparent;
+  font-size: 12pt;
+  font-family: times, serif;
+  }
+
+  @page { margin: 0.5in; }
+
+  a { text-decoration: none; }
+
+  a[href^="http://"] {
+    display: inline;
+  }
+
+  a[href^="http://"]:after {
+  content: " (" attr(href) ") ";
+  }
+
+  address p{
+    margin-top: .05cm;
+    margin-bottom: .05cm;
+    }
+
+  h1{
+    font-size: 24pt;
+  }
+
+  h2{
+    font-size: 20pt;
+    margin-bottom: -.20cm;
+  }
+
+  h3{
+    font-size: 18pt;
+  }
+
+  h4{
+  font-size: 16pt;
+  }
+
+  @page {
+    margin: 0.5in;
+  }
+
+  #topnav{
+  display: none;
+  }
+
+  a[href$=".html"]
+   {
+    display: none;
+    /* Is navigation necessary in print? What other elements
+       are not necessary? */
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a[href$=".html"]:after {
+    display: none;
+  }
+
+  a[href^="http://"],
+  a[href^="https://"] {
+    display: inline;
+  }
+
+  a[href^="http://"]:after,
+  a[href^="https://"] {
+    content: " ("attr(href) ") ";
+  }
+
+  #education p{
+    margin-top: .1cm;
+    margin-bottom: .1cm;
+  }
+
+  #education h2{
+    margin-bottom: .3cm;
+  }
+
+  #experience h2{
+    margin-bottom: .3cm;
+  }
+
+  #experience h3{
+    margin-top: -.10cm;
+    margin-bottom: -.3cm;
+  }
+
+  #experience h4{
+    margin-top: .25cm;
+    margin-bottom: .05cm;
+  }
+
+  #experience p{
+    margin-top: .5cm;
+    margin-bottom: -.25cm;
+  }
+#experience ul{
+  margin-top: 0cm;
+}
+
+ul{
+  margin-top: .25cm;
+}
+
+p.pos_right {
+float: right;
+}

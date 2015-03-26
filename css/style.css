@@ -1,0 +1,95 @@
+/* My stylesheet */
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400italic,400,700);
+
+
+nav {
+text-indent: -20px;
+}
+#topnav li{
+display:inline; font-family: 'Oswald', sans-serif; font-size: 16px; margin: 0px 20px;
+}
+
+#topnav ul{
+border-top: 1px #000 solid; border-bottom: 1px #000 solid; margin: 20px 0px; padding: 10px 0px;
+}
+
+body{
+  border: 5px double #000;
+  padding: 5px 15px;
+  background-image: url("../images/lyo.png");
+  font-family: 'Open Sans', sans-serif;;
+  font-size: 16px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+   background-color: #b0e0e6;
+}
+
+a{
+color: green;
+}
+
+a:hover{
+color: lime;
+}
+
+#address {
+padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+}
+#address p {
+margin: -2px -2px;
+}
+
+ul{
+list-style-type: circle;
+}
+
+li{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#experience ul {
+margin-top: -20px;
+margin-bottom: 20px;
+}
+
+section{
+border-bottom: 1px solid #666;
+}
+
+section:last-child{
+border-bottom:none;
+}
+
+p.pos_right {
+float: right;
+}
+
+header {
+font-family: 'Oswald', sans-serif;
+}
+
+h2{
+font-family: 'Oswald', sans-serif;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+#education p{
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+#experience h3{
+margin-top: 5px;
+margin-bottom: -15px;
+}
+
+#experience h4{
+margin-top: -15px;
+margin-bottom: 20px;
+}
