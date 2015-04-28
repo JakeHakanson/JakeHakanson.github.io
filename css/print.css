@@ -47,6 +47,10 @@
   display: none;
   }
 
+  #navbar {
+    display: none;
+  }
+  
   a[href$=".html"]
    {
     display: none;
@@ -109,4 +113,8 @@ ul{
 
 p.pos_right {
 float: right;
+}
+
+footer{
+  display: none;
 }
